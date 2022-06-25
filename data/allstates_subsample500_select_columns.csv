@@ -1,4 +1,4 @@
-,FPOBP,FSCHP,FMARHWP,FDISP,FDEYEP,FCITP,not_insured,FPOWSP,FLANXP,FDDRSP,FDEARP,FMIGP,FDREMP,FDPHYP,FDOUTP
+,place of birth allocation flag,school enrollment allocation flag,widowed in the past 12 months allocation flag,disability recode allocation flag,vision difficulty allocation flag,citizenship allocation flag,not_insured,place of work state allocation flag,language other than english allocation flag,self-care difficulty allocation flag,hearing difficulty allocation flag,mobility status allocation flag,cognitive difficulty allocation flag,ambulatory difficulty allocation flag,independent living difficulty allocation flag
 0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
