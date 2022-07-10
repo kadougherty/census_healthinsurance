@@ -4,6 +4,11 @@
 import requests
 import time
 import pandas as pd
+from dotenv import load_dotenv
+import os
+import glob
+import pandas as pd
+
 
 def getCodeDictionary():
     host     = 'https://api.census.gov/data'
@@ -20,18 +25,18 @@ def getCodeDictionary():
     for lab in label:
         codedict[code[count]] = lab
         count += 1
-    return codedict
+    return (codedict, code)
 
 def getVars():
     host     = 'https://api.census.gov/data'
     dataset  = 'acs/acs1/pums'
     year     = 2019
-    return host, dataset, year
+    nsamples = 200
+    return host, dataset, year, nsamples
 
 def variableDetails(codename):
-    host     = 'https://api.census.gov/data'
+    host,dataset,year,_ = getVars()
     dataset  = 'acs/acs1/pums/variables'
-    year     = 2019
     base_url = "/".join([host, str(year), dataset, codename + '.json']) 
     r        = requests.get(base_url)
     detail   = r.json()
@@ -39,6 +44,7 @@ def variableDetails(codename):
 
 # function to get data from Census API, Public Access MicroData Samples using list of codes (max 50), state id number 
 def callCensusApi(API_KEY,select_codes,stateid):
+    host,dataset,year,_ = getVars()
     query    = '?get='
     variable = ','.join(select_codes)
     base_url = "/".join([host, str(year), dataset]) + query + variable + '&for=state:' + stateid + '&key=' + API_KEY
@@ -49,9 +55,11 @@ def callCensusApi(API_KEY,select_codes,stateid):
     df       = pd.DataFrame(columns=colnames, data=r.json()[1:]) 
     tElapsed = time.time()-callbeg
     return (tElapsed,df)
-
+    
 # get full dataframe (all variables in code) for one state. uses callCensusAPI function above
-def getCensusDataByState(state_id):
+def getCensusDataByState(state_id,API_KEY):
+    codedict, code = getCodeDictionary()
+    _,_,_,nsamples = getVars()
     max_var_call = 50
     start_var_n  = 0
     end_var_n = start_var_n + max_var_call
@@ -78,5 +86,4 @@ def getCensusDataByState(state_id):
         totalTime = totalTime + tElapsed
         del hdf
     return (df,totalTime)
-    
     
