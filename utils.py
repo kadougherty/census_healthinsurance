@@ -25,6 +25,14 @@ def getCodeDictionary():
     for lab in label:
         codedict[code[count]] = lab
         count += 1
+        
+    remove = list()
+    for label,description in codedict.items():
+        if description.__contains__('weight'):
+            remove.append(label)
+    for delkey in remove:
+        codedict.pop(delkey)
+        code.pop(code.index(delkey))
     return (codedict, code)
 
 def getVars():
