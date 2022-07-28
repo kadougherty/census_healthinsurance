@@ -1,0 +1,59 @@
+,parameter_name,parameter_value
+0,cv,"KFold(n_splits=5, random_state=None, shuffle=False)"
+1,error_score,
+2,estimator__objective,binary:logistic
+3,estimator__use_label_encoder,False
+4,estimator__base_score,
+5,estimator__booster,
+6,estimator__callbacks,
+7,estimator__colsample_bylevel,
+8,estimator__colsample_bynode,
+9,estimator__colsample_bytree,
+10,estimator__early_stopping_rounds,
+11,estimator__enable_categorical,False
+12,estimator__eval_metric,
+13,estimator__gamma,
+14,estimator__gpu_id,
+15,estimator__grow_policy,
+16,estimator__importance_type,
+17,estimator__interaction_constraints,
+18,estimator__learning_rate,
+19,estimator__max_bin,
+20,estimator__max_cat_to_onehot,
+21,estimator__max_delta_step,
+22,estimator__max_depth,
+23,estimator__max_leaves,
+24,estimator__min_child_weight,
+25,estimator__missing,
+26,estimator__monotone_constraints,
+27,estimator__n_estimators,100
+28,estimator__n_jobs,
+29,estimator__num_parallel_tree,
+30,estimator__predictor,
+31,estimator__random_state,
+32,estimator__reg_alpha,
+33,estimator__reg_lambda,
+34,estimator__sampling_method,
+35,estimator__scale_pos_weight,
+36,estimator__subsample,
+37,estimator__tree_method,
+38,estimator__validate_parameters,
+39,estimator__verbosity,
+40,estimator,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, gamma=None,
+              gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, predictor=None, random_state=None,
+              reg_alpha=None, reg_lambda=None, ...)"
+41,n_jobs,
+42,param_grid,"{'learning_rate': [0.4, 0.2, 0.1], 'subsample': [0.8, 1.0], 'scale_pos_weight': [1.0, 2.0, 3.0], 'colsample_bytree': [0.7, 1.0], 'max_depth': [5, 10, 30, None]}"
+43,pre_dispatch,2*n_jobs
+44,refit,True
+45,return_train_score,False
+46,scoring,f1
+47,verbose,1

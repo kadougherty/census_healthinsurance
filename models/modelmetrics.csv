@@ -1,0 +1,207 @@
+library	model_name	model_features_description	model_hyperparameters	best_value	all_parameters	parameter_value
+scikit-learn	XGBClassifier	"household income (past 12 months, use adjinc to adjust hincp to constant dollars)"	colsample_bytree	0.7	cv	"KFold(n_splits=5, random_state=None, shuffle=False)"
+		"total person's income (signed, use adjinc to adjust to constant dollars)"	learning_rate	0.1	error_score	
+		income-to-poverty ratio recode	max_depth	None	estimator__objective	binary:logistic
+		number of rooms	scale_pos_weight	3	estimator__use_label_encoder	FALSE
+		"gross rent (monthly amount, use adjhsg to adjust grntp to constant dollars)"	subsample	0.8	estimator__base_score	
+		number of bedrooms			estimator__booster	
+		Disability recode:With a disability			estimator__callbacks	
+		Detailed household language:English only household			estimator__colsample_bylevel	
+		"Work status of householder or spouse in family households:Husband and wife both in labor force, both employed or in Armed Forces"			estimator__colsample_bynode	
+		Response mode:Internet			estimator__colsample_bytree	
+		Gas cost flag variable:No charge or gas not used			estimator__early_stopping_rounds	
+		Tenure:Owned with mortgage or loan (include home equity loans)			estimator__enable_categorical	FALSE
+		Specified rental unit:A single-family home on 10 or more acres.			estimator__eval_metric	
+		Yearly food stamp/Supplemental Nutrition Assistance Program (SNAP) recipiency:Yes			estimator__gamma	
+		HH presence and age of children:With children 6 to 17 years only			estimator__gpu_id	
+		Response mode:MAIL			estimator__grow_policy	
+		Relationship:Reference person			estimator__importance_type	
+		Units in structure:One-family house detached			estimator__interaction_constraints	
+		Tenure:Owned Free And Clear			estimator__learning_rate	
+		Family income (past 12 months) allocation flag:No			estimator__max_bin	
+		When structure first built:1970 to 1979			estimator__max_cat_to_onehot	
+		When structure first built:1939 or earlier			estimator__max_delta_step	
+		HH presence and age of children:No children			estimator__max_depth	
+		Response mode:CATI/CAPI			estimator__max_leaves	
+		Laptop or desktop:No			estimator__min_child_weight	
+		Water cost flag variable:No charge			estimator__missing	
+		HH presence and age of children:With children under 6 years and 6 to 17 years			estimator__monotone_constraints	
+		Work status of householder or spouse in family households:N/A (GQ/not a family household/same-sex married-couple families)			estimator__n_estimators	100
+		Relationship:Opposite-sex husband/wife/spouse			estimator__n_jobs	
+		Selected monthly owner cost allocation flag:No			estimator__num_parallel_tree	
+		When structure first built:1960 to 1969			estimator__predictor	
+		Other Internet service:N/A (GQ/vacant/no paid access to the internet)			estimator__random_state	
+		Independent living difficulty:No			estimator__reg_alpha	
+		When structure first built:1990 to 1999			estimator__reg_lambda	
+		Gas cost flag variable:Valid monthly gas cost in GASP			estimator__sampling_method	
+		Detailed household language:Spanish			estimator__scale_pos_weight	
+		When structure first built:1980 to 1989			estimator__subsample	
+		Units in structure:Mobile Home or Trailer			estimator__tree_method	
+		Related child:No			estimator__validate_parameters	
+		Work status of householder or spouse in family households:Neither husband nor wife in labor force			estimator__verbosity	
+		Relationship:Noninstitutionalized group quarters population			estimator	"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, gamma=None,
+              gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+              max_leaves=None, min_child_weight=None, missing=nan,
+              monotone_constraints=None, n_estimators=100, n_jobs=None,
+              num_parallel_tree=None, predictor=None, random_state=None,
+              reg_alpha=None, reg_lambda=None, ...)"
+		Laptop or desktop:Yes			n_jobs	
+		Tenure:Rented			param_grid	"{'learning_rate': [0.4, 0.2, 0.1], 'subsample': [0.8, 1.0], 'scale_pos_weight': [1.0, 2.0, 3.0], 'colsample_bytree': [0.7, 1.0], 'max_depth': [5, 10, 30, None]}"
+		Household with grandparent living with grandchildren:Household without grandparent living with grandchildren			pre_dispatch	2*n_jobs
+		Gas cost flag variable:Included in electricity payment			refit	TRUE
+		"Specified rental unit:A single-family home on less than 10 acres or any other type of building, including mobile homes, with no regard to acreage."			return_train_score	FALSE
+		Water cost flag variable:Included in rent or in condo fee			scoring	f1
+		When structure first built:2000 to 2004			verbose	1
+		"Fire, hazard, flood insurance (yearly amount) allocation flag:Yes"				
+		Family income (past 12 months) allocation flag:Yes				
+		Relationship:Biological son or daughter				
+		Independent living difficulty:Yes				
+		Other Internet service:No				
+		"Work status of householder or spouse in family households:Husband in labor force and wife not in labor force, husband employed or in Armed Forces"				
+		Disability recode:Without a disability				
+		"Work status of householder or spouse in family households:female householder with no husband present, householder not in labor force"				
+		HH presence and age of children:With children under 6 years only				
+		Fuel cost flag variable:Valid annual fuel cost in FULP				
+		Water cost flag variable:Valid annual water cost in WATP				
+		"Work status of householder or spouse in family households:male householder with no wife present, householder not in labor force"				
+		When structure first built:1950 to 1959				
+		Gas (monthly cost) allocation flag:No				
+		Cellular data plan for a smartphone or other mobile device allocation flag:No				
+		"Work status of householder or spouse in family households:Husband not in labor force, wife in labor force, wife employed or in Armed Forces"				
+		Units in structure:10-19 Apartments				
+		Relationship:Adopted son or daughter				
+		Presence of subfamilies in household:1 or more subfamilies				
+		Fuel cost (yearly cost for fuels other than gas and electricity) allocation flag:No				
+		Fuel cost (yearly cost for fuels other than gas and electricity) allocation flag:Yes				
+		Fuel cost flag variable:No charge or fuel other than gas or electricity not used				
+		Property value allocation flag:Yes				
+		Other Internet service allocation flag:Yes				
+		"Fire, hazard, flood insurance (yearly amount) allocation flag:No"				
+		Water (yearly cost) allocation flag:No				
+		Relationship:Other nonrelative				
+		Related child:Yes				
+		Gross rent (monthly amount) allocation flag:No				
+		Presence of subfamilies in household:No subfamilies				
+		Units in structure:One-family house attached				
+		"Work status of householder or spouse in family households:male householder with no wife present, householder in labor force, employed or in Armed Forces"				
+		Relationship:Other relative				
+		When structure first built:2013				
+		When structure first built:1940 to 1949				
+		Property value allocation flag:No				
+		Complete plumbing facilities allocation flag:Yes				
+		"First mortgage payment includes fire, hazard, flood insurance allocation flag:No"				
+		When structure first built:2006				
+		Cellular data plan for a smartphone or other mobile device allocation flag:Yes				
+		Lot size allocation flag:No				
+		"Access to the Internet:Yes, by paying a cell phone company or Internet service provider"				
+		Electricity cost flag variable:Valid monthly electricity cost in ELEP				
+		"Access to the Internet:No access to the Internet at this house, apartment, or mobile home"				
+		Relationship:Opposite-sex unmarried partner				
+		Relationship:Roommate or housemate				
+		Lot size allocation flag:Yes				
+		When structure first built:2012				
+		"Work status of householder or spouse in family households:female householder with no husband present, householder in labor force, employed or in Armed Forces"				
+		Gas cost flag variable:Included in rent or in condo fee				
+		Selected monthly owner cost allocation flag:Yes				
+		When structure first built:2008				
+		Water (yearly cost) allocation flag:Yes				
+		When structure first built:2007				
+		Household with grandparent living with grandchildren:Household with grandparent living with grandchildren				
+		When structure first built:2014				
+		Gross rent (monthly amount) allocation flag:Yes				
+		Gas (monthly cost) allocation flag:Yes				
+		First mortgage status allocation flag:No				
+		Yearly food stamp/Supplemental Nutrition Assistance Program (SNAP) recipiency:No				
+		Relationship:Father or mother				
+		Electricity cost flag variable:No charge or electricity not used				
+		Units in structure:3-4 Apartments				
+		"First mortgage payment includes fire, hazard, flood insurance allocation flag:Yes"				
+		Relationship:Brother or sister				
+		Number of bedrooms allocation flag:No				
+		Relationship:Grandchild				
+		Other computer equipment:No				
+		Tenure:Occupied without payment of rent				
+		Other Internet service:Yes				
+		"Work status of householder or spouse in family households:Husband and wife both in labor force, husband unemployed, wife employed or in Armed Forces"				
+		Detailed household language:Navajo				
+		Number of bedrooms allocation flag:Yes				
+		"Broadband (high speed) Internet service such as cable, fiber optic, or DSL service allocation flag:Yes"				
+		Other Internet service allocation flag:No				
+		Detailed household language:German				
+		Units in structure:20-49 Apartments				
+		Detailed household language:Japanese				
+		Other computer equipment allocation flag:No				
+		Telephone service:Yes				
+		Other computer equipment:Yes				
+		"Access to the Internet:Yes, without paying a cell phone company or Internet service provider"				
+		Other computer equipment:N/A (GQ/vacant)				
+		House heating fuel allocation flag:No				
+		Bathtub or shower:Yes				
+		First mortgage status allocation flag:Yes				
+		When structure first built:2015				
+		Detailed household language:Burmese				
+		Home equity loan status allocation flag:No				
+		Smartphone allocation flag:No				
+		Units in structure allocation flag:Yes				
+		Complete plumbing facilities allocation flag:No				
+		When structure first built:2005				
+		Other computer equipment allocation flag:Yes				
+		Units in structure:50 or More Apartments				
+		Second mortgage status allocation flag:Yes				
+		Relationship:Institutionalized group quarters population				
+		Sink with a faucet allocation flag:No				
+		Units in structure:2 Apartments				
+		Detailed household language:Ilocano				
+		Detailed household language:Haitian				
+		"Complete kitchen facilities:Yes, has stove or range, refrigerator, and sink with a faucet"				
+		Detailed household language:Portuguese				
+		Detailed household language:Italian				
+		Detailed household language:Russian				
+		Detailed household language:Urdu				
+		House heating fuel allocation flag:Yes				
+		Sink with a faucet allocation flag:N/A (GQ)				
+		Electricity cost flag variable:Included in rent or in condo fee				
+		Tablet or other portable wireless computer allocation flag:Yes				
+		When structure first built:2009				
+		Access to the Internet allocation flag:No				
+		Units in structure:5-9 Apartments				
+		Tenure allocation flag:No				
+		Complete kitchen facilities allocation flag:Yes				
+		Stove or range allocation flag:No				
+		Water cost flag variable:N/A (GQ/vacant)				
+		When structure first built:2018				
+		Grandparent headed household with no parent present:Not a grandparent headed household with no parent present				
+		Meals included in rent allocation flag:No				
+		Vehicles available allocation flag:No				
+		Relationship:Foster child				
+		Bathtub or shower allocation flag:No				
+		Tablet or other portable wireless computer allocation flag:No				
+		Detailed household language:French				
+		"Broadband (high speed) Internet service such as cable, fiber optic, or DSL service allocation flag:No"				
+		Complete kitchen facilities allocation flag:No				
+		Mobile home costs (yearly amount) allocation flag:No				
+		Hot and cold Running water:Yes				
+		Telephone service allocation flag:No				
+		Second mortgage status allocation flag:No				
+		Mobile home costs (yearly amount) allocation flag:Yes				
+		Sink with a faucet allocation flag:Yes				
+		Grandparent headed household with no parent present:Grandparent headed household with no parent present				
+		Meals included in rent allocation flag:N/A (GQ)				
+		Units in structure allocation flag:No				
+		Detailed household language:Vietnamese				
+		Bathtub or shower allocation flag:Yes				
+		When structure first built:2010				
+		Bathtub or shower:No				
+		Detailed household language:Chinese				
+		Detailed household language:Cantonese				
+		Independent living difficulty:N/A (Less than 15 years old)				
+		When structure first built:2016				
+		When structure first built:2017				
+		Detailed household language:Tagalog				
+		Stove or range:Yes				
+						

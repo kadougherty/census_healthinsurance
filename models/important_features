@@ -1,0 +1,196 @@
+,features,scores,description
+1,HINCP,417.0,"household income (past 12 months, use adjinc to adjust hincp to constant dollars)"
+0,PINCP,388.0,"total person's income (signed, use adjinc to adjust to constant dollars)"
+5,POVPIP,299.0,income-to-poverty ratio recode
+2,RMSP,184.0,number of rooms
+4,GRNTP,120.0,"gross rent (monthly amount, use adjhsg to adjust grntp to constant dollars)"
+3,BDSP,79.0,number of bedrooms
+59,DIS_1,60.0,Disability recode:With a disability
+22,HHLANP_9500,55.0,Detailed household language:English only household
+32,WORKSTAT_1,50.0,"Work status of householder or spouse in family households:Husband and wife both in labor force, both employed or in Armed Forces"
+105,RESMODE_3,47.0,Response mode:Internet
+95,GASFP_3,46.0,Gas cost flag variable:No charge or gas not used
+191,TEN_1,45.0,Tenure:Owned with mortgage or loan (include home equity loans)
+44,SRNT_0,43.0,Specified rental unit:A single-family home on 10 or more acres.
+75,FS_1,43.0,Yearly food stamp/Supplemental Nutrition Assistance Program (SNAP) recipiency:Yes
+54,HUPAC_2,39.0,HH presence and age of children:With children 6 to 17 years only
+103,RESMODE_1,36.0,Response mode:MAIL
+111,RELSHIPP_20,35.0,Relationship:Reference person
+84,BLD_2,34.0,Units in structure:One-family house detached
+192,TEN_2,34.0,Tenure:Owned Free And Clear
+152,FFINCP_0,34.0,Family income (past 12 months) allocation flag:No
+135,YBL_5,34.0,When structure first built:1970 to 1979
+131,YBL_1,33.0,When structure first built:1939 or earlier
+56,HUPAC_4,33.0,HH presence and age of children:No children
+104,RESMODE_2,33.0,Response mode:CATI/CAPI
+70,LAPTOP_2,33.0,Laptop or desktop:No
+99,WATFP_2,33.0,Water cost flag variable:No charge
+55,HUPAC_3,31.0,HH presence and age of children:With children under 6 years and 6 to 17 years
+31,WORKSTAT_0,31.0,Work status of householder or spouse in family households:N/A (GQ/not a family household/same-sex married-couple families)
+112,RELSHIPP_21,28.0,Relationship:Opposite-sex husband/wife/spouse
+188,FSMOCP_0,28.0,Selected monthly owner cost allocation flag:No
+134,YBL_4,26.0,When structure first built:1960 to 1969
+50,OTHSVCEX_0,26.0,Other Internet service:N/A (GQ/vacant/no paid access to the internet)
+48,DOUT_2,26.0,Independent living difficulty:No
+137,YBL_7,26.0,When structure first built:1990 to 1999
+96,GASFP_4,26.0,Gas cost flag variable:Valid monthly gas cost in GASP
+10,HHLANP_1200,25.0,Detailed household language:Spanish
+136,YBL_6,25.0,When structure first built:1980 to 1989
+83,BLD_1,24.0,Units in structure:Mobile Home or Trailer
+125,RC_0,23.0,Related child:No
+36,WORKSTAT_9,23.0,Work status of householder or spouse in family households:Neither husband nor wife in labor force
+124,RELSHIPP_38,22.0,Relationship:Noninstitutionalized group quarters population
+69,LAPTOP_1,22.0,Laptop or desktop:Yes
+193,TEN_3,22.0,Tenure:Rented
+167,HUGCL_0,22.0,Household with grandparent living with grandchildren:Household without grandparent living with grandchildren
+94,GASFP_2,22.0,Gas cost flag variable:Included in electricity payment
+45,SRNT_1,21.0,"Specified rental unit:A single-family home on less than 10 acres or any other type of building, including mobile homes, with no regard to acreage."
+98,WATFP_1,21.0,Water cost flag variable:Included in rent or in condo fee
+138,YBL_8,20.0,When structure first built:2000 to 2004
+62,FINSP_1,20.0,"Fire, hazard, flood insurance (yearly amount) allocation flag:Yes"
+153,FFINCP_1,20.0,Family income (past 12 months) allocation flag:Yes
+114,RELSHIPP_25,20.0,Relationship:Biological son or daughter
+47,DOUT_1,20.0,Independent living difficulty:Yes
+52,OTHSVCEX_2,19.0,Other Internet service:No
+33,WORKSTAT_3,19.0,"Work status of householder or spouse in family households:Husband in labor force and wife not in labor force, husband employed or in Armed Forces"
+60,DIS_2,19.0,Disability recode:Without a disability
+40,WORKSTAT_15,19.0,"Work status of householder or spouse in family households:female householder with no husband present, householder not in labor force"
+53,HUPAC_1,18.0,HH presence and age of children:With children under 6 years only
+172,FULFP_3,18.0,Fuel cost flag variable:Valid annual fuel cost in FULP
+100,WATFP_3,18.0,Water cost flag variable:Valid annual water cost in WATP
+38,WORKSTAT_12,17.0,"Work status of householder or spouse in family households:male householder with no wife present, householder not in labor force"
+133,YBL_3,16.0,When structure first built:1950 to 1959
+101,FGASP_0,16.0,Gas (monthly cost) allocation flag:No
+27,FBROADBNDP_0,15.0,Cellular data plan for a smartphone or other mobile device allocation flag:No
+35,WORKSTAT_7,15.0,"Work status of householder or spouse in family households:Husband not in labor force, wife in labor force, wife employed or in Armed Forces"
+89,BLD_7,14.0,Units in structure:10-19 Apartments
+115,RELSHIPP_26,14.0,Relationship:Adopted son or daughter
+160,PSF_1,14.0,Presence of subfamilies in household:1 or more subfamilies
+29,FFULP_0,13.0,Fuel cost (yearly cost for fuels other than gas and electricity) allocation flag:No
+30,FFULP_1,13.0,Fuel cost (yearly cost for fuels other than gas and electricity) allocation flag:Yes
+171,FULFP_2,13.0,Fuel cost flag variable:No charge or fuel other than gas or electricity not used
+164,FVALP_1,12.0,Property value allocation flag:Yes
+68,FOTHSVCEXP_1,12.0,Other Internet service allocation flag:Yes
+61,FINSP_0,12.0,"Fire, hazard, flood insurance (yearly amount) allocation flag:No"
+25,FWATP_0,12.0,Water (yearly cost) allocation flag:No
+122,RELSHIPP_36,12.0,Relationship:Other nonrelative
+126,RC_1,12.0,Related child:Yes
+157,FGRNTP_0,11.0,Gross rent (monthly amount) allocation flag:No
+159,PSF_0,11.0,Presence of subfamilies in household:No subfamilies
+85,BLD_3,11.0,Units in structure:One-family house attached
+37,WORKSTAT_10,11.0,"Work status of householder or spouse in family households:male householder with no wife present, householder in labor force, employed or in Armed Forces"
+119,RELSHIPP_33,11.0,Relationship:Other relative
+146,YBL_17,11.0,When structure first built:2013
+132,YBL_2,10.0,When structure first built:1940 to 1949
+163,FVALP_0,10.0,Property value allocation flag:No
+107,FPLMP_1,10.0,Complete plumbing facilities allocation flag:Yes
+71,FMRGIP_0,10.0,"First mortgage payment includes fire, hazard, flood insurance allocation flag:No"
+140,YBL_10,10.0,When structure first built:2006
+28,FBROADBNDP_1,9.0,Cellular data plan for a smartphone or other mobile device allocation flag:Yes
+77,FACRP_0,9.0,Lot size allocation flag:No
+185,ACCESS_1,9.0,"Access to the Internet:Yes, by paying a cell phone company or Internet service provider"
+110,ELEFP_3,8.0,Electricity cost flag variable:Valid monthly electricity cost in ELEP
+187,ACCESS_3,8.0,"Access to the Internet:No access to the Internet at this house, apartment, or mobile home"
+113,RELSHIPP_22,8.0,Relationship:Opposite-sex unmarried partner
+120,RELSHIPP_34,8.0,Relationship:Roommate or housemate
+78,FACRP_1,8.0,Lot size allocation flag:Yes
+145,YBL_16,8.0,When structure first built:2012
+39,WORKSTAT_13,8.0,"Work status of householder or spouse in family households:female householder with no husband present, householder in labor force, employed or in Armed Forces"
+93,GASFP_1,7.0,Gas cost flag variable:Included in rent or in condo fee
+189,FSMOCP_1,7.0,Selected monthly owner cost allocation flag:Yes
+142,YBL_12,7.0,When structure first built:2008
+26,FWATP_1,7.0,Water (yearly cost) allocation flag:Yes
+141,YBL_11,7.0,When structure first built:2007
+168,HUGCL_1,7.0,Household with grandparent living with grandchildren:Household with grandparent living with grandchildren
+147,YBL_18,7.0,When structure first built:2014
+158,FGRNTP_1,7.0,Gross rent (monthly amount) allocation flag:Yes
+102,FGASP_1,6.0,Gas (monthly cost) allocation flag:Yes
+169,FMRGXP_0,6.0,First mortgage status allocation flag:No
+76,FS_2,6.0,Yearly food stamp/Supplemental Nutrition Assistance Program (SNAP) recipiency:No
+117,RELSHIPP_29,6.0,Relationship:Father or mother
+109,ELEFP_2,6.0,Electricity cost flag variable:No charge or electricity not used
+87,BLD_5,6.0,Units in structure:3-4 Apartments
+72,FMRGIP_1,6.0,"First mortgage payment includes fire, hazard, flood insurance allocation flag:Yes"
+116,RELSHIPP_28,6.0,Relationship:Brother or sister
+63,FBDSP_0,6.0,Number of bedrooms allocation flag:No
+118,RELSHIPP_30,5.0,Relationship:Grandchild
+177,COMPOTHX_2,5.0,Other computer equipment:No
+194,TEN_4,5.0,Tenure:Occupied without payment of rent
+51,OTHSVCEX_1,5.0,Other Internet service:Yes
+34,WORKSTAT_4,5.0,"Work status of householder or spouse in family households:Husband and wife both in labor force, husband unemployed, wife employed or in Armed Forces"
+21,HHLANP_6933,5.0,Detailed household language:Navajo
+64,FBDSP_1,5.0,Number of bedrooms allocation flag:Yes
+128,FHISPEEDP_1,4.0,"Broadband (high speed) Internet service such as cable, fiber optic, or DSL service allocation flag:Yes"
+67,FOTHSVCEXP_0,4.0,Other Internet service allocation flag:No
+7,HHLANP_1110,4.0,Detailed household language:German
+90,BLD_8,4.0,Units in structure:20-49 Apartments
+18,HHLANP_2560,4.0,Detailed household language:Japanese
+73,FCOMPOTHXP_0,4.0,Other computer equipment allocation flag:No
+190,TEL_1,4.0,Telephone service:Yes
+176,COMPOTHX_1,4.0,Other computer equipment:Yes
+186,ACCESS_2,4.0,"Access to the Internet:Yes, without paying a cell phone company or Internet service provider"
+175,COMPOTHX_0,3.0,Other computer equipment:N/A (GQ/vacant)
+181,FHFLP_0,3.0,House heating fuel allocation flag:No
+173,BATH_1,3.0,Bathtub or shower:Yes
+170,FMRGXP_1,3.0,First mortgage status allocation flag:Yes
+148,YBL_19,3.0,When structure first built:2015
+17,HHLANP_2160,3.0,Detailed household language:Burmese
+154,FSMXHP_0,3.0,Home equity loan status allocation flag:No
+161,FSMARTPHONP_0,3.0,Smartphone allocation flag:No
+58,FBLDP_1,3.0,Units in structure allocation flag:Yes
+106,FPLMP_0,3.0,Complete plumbing facilities allocation flag:No
+139,YBL_9,3.0,When structure first built:2005
+74,FCOMPOTHXP_1,3.0,Other computer equipment allocation flag:Yes
+91,BLD_9,3.0,Units in structure:50 or More Apartments
+184,FSMXSP_1,3.0,Second mortgage status allocation flag:Yes
+123,RELSHIPP_37,3.0,Relationship:Institutionalized group quarters population
+179,FSINKP_0,3.0,Sink with a faucet allocation flag:No
+86,BLD_4,3.0,Units in structure:2 Apartments
+20,HHLANP_3150,2.0,Detailed household language:Ilocano
+6,HHLANP_1055,2.0,Detailed household language:Haitian
+162,KIT_1,2.0,"Complete kitchen facilities:Yes, has stove or range, refrigerator, and sink with a faucet"
+11,HHLANP_1210,2.0,Detailed household language:Portuguese
+8,HHLANP_1155,2.0,Detailed household language:Italian
+12,HHLANP_1250,2.0,Detailed household language:Russian
+13,HHLANP_1360,2.0,Detailed household language:Urdu
+182,FHFLP_1,2.0,House heating fuel allocation flag:Yes
+178,FSINKP_-1,2.0,Sink with a faucet allocation flag:N/A (GQ)
+108,ELEFP_1,2.0,Electricity cost flag variable:Included in rent or in condo fee
+156,FTABLETP_1,2.0,Tablet or other portable wireless computer allocation flag:Yes
+143,YBL_13,2.0,When structure first built:2009
+49,FACCESSP_0,2.0,Access to the Internet allocation flag:No
+88,BLD_6,2.0,Units in structure:5-9 Apartments
+82,FTENP_0,2.0,Tenure allocation flag:No
+130,FKITP_1,2.0,Complete kitchen facilities allocation flag:Yes
+79,FSTOVP_0,2.0,Stove or range allocation flag:No
+97,WATFP_0,2.0,Water cost flag variable:N/A (GQ/vacant)
+151,YBL_22,2.0,When structure first built:2018
+165,NPP_0,1.0,Grandparent headed household with no parent present:Not a grandparent headed household with no parent present
+66,FRNTMP_0,1.0,Meals included in rent allocation flag:No
+92,FVEHP_0,1.0,Vehicles available allocation flag:No
+121,RELSHIPP_35,1.0,Relationship:Foster child
+23,FBATHP_0,1.0,Bathtub or shower allocation flag:No
+155,FTABLETP_0,1.0,Tablet or other portable wireless computer allocation flag:No
+9,HHLANP_1170,1.0,Detailed household language:French
+127,FHISPEEDP_0,1.0,"Broadband (high speed) Internet service such as cable, fiber optic, or DSL service allocation flag:No"
+129,FKITP_0,1.0,Complete kitchen facilities allocation flag:No
+42,FMHP_0,1.0,Mobile home costs (yearly amount) allocation flag:No
+81,RWAT_1,1.0,Hot and cold Running water:Yes
+80,FTELP_0,1.0,Telephone service allocation flag:No
+183,FSMXSP_0,1.0,Second mortgage status allocation flag:No
+43,FMHP_1,1.0,Mobile home costs (yearly amount) allocation flag:Yes
+180,FSINKP_1,1.0,Sink with a faucet allocation flag:Yes
+166,NPP_1,1.0,Grandparent headed household with no parent present:Grandparent headed household with no parent present
+65,FRNTMP_-1,1.0,Meals included in rent allocation flag:N/A (GQ)
+57,FBLDP_0,1.0,Units in structure allocation flag:No
+14,HHLANP_1960,1.0,Detailed household language:Vietnamese
+24,FBATHP_1,1.0,Bathtub or shower allocation flag:Yes
+144,YBL_14,1.0,When structure first built:2010
+174,BATH_2,1.0,Bathtub or shower:No
+15,HHLANP_1970,1.0,Detailed household language:Chinese
+16,HHLANP_2050,1.0,Detailed household language:Cantonese
+46,DOUT_0,1.0,Independent living difficulty:N/A (Less than 15 years old)
+149,YBL_20,1.0,When structure first built:2016
+150,YBL_21,1.0,When structure first built:2017
+19,HHLANP_2920,1.0,Detailed household language:Tagalog
+41,STOV_1,1.0,Stove or range:Yes
