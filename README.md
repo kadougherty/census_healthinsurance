@@ -17,7 +17,7 @@ Here is the address for information on variables that can be retrieved on the AP
 
 3. https://api.census.gov/data/2019/acs/acs1/pums/variables
 
-Calls are made with python code written in utils.py[utils.py] 
+Calls are made with python code written in utils.py[utils.py ] 
 by using this address https://api.census.gov/data/2019/acs/acs1/pums/ followed by a query statement
 
 ## Repo organization
