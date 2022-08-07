@@ -23,7 +23,7 @@ by using this address https://api.census.gov/data/2019/acs/acs1/pums/ followed b
 ## Repo organization
 Python code written for data retrieval, wrangling, exploration, and modelling is organized in Jupyter notebooks. Notebooks are numbered consecutively, as they were run for the project.
 
-1. Data Wrangling[/1.census_healthinsurance_datawrangling.ipynb]
+1. Data Wrangling['1.census_healthinsurance_datawrangling.ipynb']
 2. Defining variables
 3. Exploration Data Analysis
 4. Preprocessing for Model Development
